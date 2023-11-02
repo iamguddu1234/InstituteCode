@@ -1,0 +1,182 @@
+html {
+  /*Core color codes------global color codes #224C98 */
+  --themeColor: #207ef5; /*#207ef5;*/
+  /* #224C98;/*#207ef5;/* #224C98;/*#263c63;/* #1b3d7a;#4285F4*/
+  --deepDarkThemeTextColor: #1b1e24; /*#29303d;/*#132545;/*#0e1c36;*/
+  --greyTextColor: #5e5d5d;
+  --cardBorderColor: #d3d3d3;
+  --cardBorderColorLight: #e8e8e8;
+  --greenColor1: #65c394;
+  --redColor1: #ff726f;
+  --chatCommentBkgColor: #e3effe;
+  --bodyBkgColor: #f2f2f2;
+}
+
+.mainContainer {
+  width: 20%;
+  height: 100%;
+}
+
+.parentClass {
+  height: 99%;
+  background-color: var(--cardBorderColorLight);
+  border: 1px solid var(--cardBorderColor);
+  display: flex;
+  flex-direction: column;
+}
+
+.menuTitle {
+  height: 35px;
+  border-bottom: 1px solid var(--cardBorderColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cardBorderColorLight);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.peopleBtn {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 1px solid var(--cardBorderColor);
+}
+
+.peopleBtn:hover {
+  background-color: white;
+  color: var(--themeColor);
+  cursor: pointer;
+}
+
+.peopleBtn:hover .peopleIcon {
+  color: var(--themeColor);
+}
+
+.peopleIcon {
+  width: 30px;
+  height: 30px;
+  background-color: var(--cardBorderColorLight);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.peopleSection {
+  margin-left: 10px;
+  text-align: start;
+  font-size: 14px;
+}
+
+.AttendanceBtn {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 1px solid var(--cardBorderColor);
+}
+
+.AttendanceBtn:hover {
+  background-color: white;
+  color: var(--themeColor);
+  cursor: pointer;
+}
+
+.AttendanceBtn:hover .AttendanceIcon {
+  color: var(--themeColor);
+}
+
+.AttendanceIcon {
+  width: 30px;
+  height: 30px;
+  background-color: var(--cardBorderColorLight);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.AttendanceSection {
+  margin-left: 10px;
+  text-align: start;
+  font-size: 14px;
+}
+
+.feesBtn {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 1px solid var(--cardBorderColor);
+}
+
+.feesBtn:hover {
+  background-color: white;
+  color: var(--themeColor);
+  cursor: pointer;
+}
+
+.feesBtn:hover .AttendanceIcon {
+  color: var(--themeColor);
+}
+
+.feesIcon {
+  width: 30px;
+  height: 30px;
+  background-color: var(--cardBorderColorLight);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.feesSection {
+  margin-left: 10px;
+  text-align: start;
+  font-size: 14px;
+}
+
+.courseBtn {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.courseBtn:hover {
+  background-color: white;
+  color: var(--themeColor);
+  cursor: pointer;
+}
+
+.courseBtn:hover .AttendanceIcon {
+  color: var(--themeColor);
+}
+
+.coursesIcon {
+  width: 30px;
+  height: 30px;
+  background-color: var(--cardBorderColorLight);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.coursesSection {
+  margin-left: 10px;
+  text-align: start;
+  font-size: 14px;
+}
